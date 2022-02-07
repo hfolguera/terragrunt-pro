@@ -1,0 +1,23 @@
+# Ignore temporary files
+**.swp
+**.bck
+**.old
+**.tmp
+.DS_Store
+
+# Ignore terraform files
+**.tfstate
+**.terragrunt-cache
+**.terraform.lock.hcl
+.terraform
+backend.tf
+provider.tf
+**.tfvars
+
+# Ignore large files
+*.zip
+*.tar.gz
+
+# Ignore environment files
+ocienv
+
